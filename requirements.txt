@@ -1,0 +1,12 @@
+faster-whisper
+groq
+streamlit
+nltk
+spacy
+textstat
+pysrt
+webvtt-py
+python-dotenv
+ffmpeg-python
+bcrypt
+psycopg2-binary

@@ -1,0 +1,41 @@
+# Environment variables (NEVER commit this - contains API keys)
+.env
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+.pytest_cache/
+
+# Virtual environment
+myenv/
+venv/
+env/
+.venv/
+
+# Generated outputs (large/regenerable files - don't clutter the repo)
+output/
+data/raw_videos/
+data/audio/
+
+# Streamlit
+.streamlit/
+
+# Database (personal/local data - don't commit user accounts or history)
+backend/database/*.db
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# Logs
+*.log
+*.mp4
